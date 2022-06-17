@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="all-content">
+        <div class="container">
+            <div class="header my-5">
+                <h2 class="fw-bolder">BookMarker</h2>
+            </div>
+            <hr>
+            <div class="data-box text-center">
+                <h2 class="text-center">Bookmark your favorite sites</h2>
+                <label class="mx-auto mt-4 mb-2 text-center" for="">Website name</label>
+                <input id="nameInput" type="text" class="form-control" placeholder="Bookmark name">
+                <div id="nameAlert" class="alert alert-danger d-none text-center" role="alert">
+                    This name already exists!
+                </div>
+                <label class="mx-auto mt-4 mb-2 text-center" for="">Website URL</label>
+                <input id="urlInput" type="text" class="form-control" placeholder="Website URL">
+                <button onclick="addLink()" id="submitBtn" class="btn btn-primary mt-4 mx-auto">Submit</button>
+            </div>
+            <div id="myLinks" class="all-links"></div>
+            <hr>
+            <div class="footer my-5">
+                <p>© 2019 Bookmarker Inc</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

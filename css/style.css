@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.fit-content {
+    width: fit-content;
+}
+
+.header h2 {
+    color: #aaaaaa;
+}
+
+.data-box {
+    background-color: #eeeeee;
+    padding: 50px;
+}
+
+.link-item {
+    background-image:linear-gradient(#eeeeee, white);
+    padding: 20px;
+}
+
+.link-item .title {
+    color: #333333;
+    margin: 18px 0;
+    font-size: 24px;
+}
+label {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.footer p {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: bold;
+}
